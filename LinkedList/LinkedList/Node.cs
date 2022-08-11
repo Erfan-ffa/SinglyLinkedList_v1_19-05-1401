@@ -41,10 +41,6 @@ namespace LinkedList
             {
                 Console.WriteLine(i.Value);
                 i = i.Next;
-                if (i == current.Next)
-                {
-                    break;
-                }
             }
 
             //var newhead = head;
